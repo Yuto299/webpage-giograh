@@ -10,3 +10,78 @@ body {
   color: #333;
   /* 目に優しい色 */
 }
+
+/* section */
+.section {
+  padding: 40px;
+}
+
+.section.section-secondary {
+  background-color: #efefef;
+}
+
+.section-headline {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 0 40px;
+}
+
+/* about */
+.about {
+  margin: 0;
+  display: flex;
+}
+
+.about-caption {
+  padding: 0 40px 40px 40px;
+}
+
+.about-headline {
+  margin: 0 0 20px;
+  font-size: 30px;
+}
+
+/* Grid */
+.grid {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.grid-item {
+  list-style: none;
+}
+
+.grid-col-2 > .grid-item {
+  width: 50%;
+}
+
+.grid-col-3 > .grid-item {
+  width: 33.3333%;
+}
+
+.grid-col-4 > .grid-item {
+  width: 25%;
+}
+
+/* Feature */
+.feature {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.feature-headline {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.feature-image {
+  margin-bottom: 20px;
+}
+
+.feature-description {
+  text-align: left;
+  margin: 0;
+}
