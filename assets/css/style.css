@@ -85,3 +85,65 @@ body {
   text-align: left;
   margin: 0;
 }
+
+/* Card */
+.card {
+  padding: 0 10px;
+}
+
+.card-link {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  transition: background-color 0.25s;
+}
+
+.card-link:hover {
+  background-color: #eee;
+}
+
+.card-label {
+  position: absolute;
+  background-color: #999;
+  color: #fff;
+  display: block;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-info {
+  padding: 5px 10px;
+}
+
+.card-headline {
+  margin: 0;
+}
+
+.card-description {
+  margin: 0;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+}
+
+.avatar-name {
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.avatar-image {
+  margin: 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
