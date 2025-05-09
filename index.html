@@ -151,9 +151,9 @@
       <form class="form" action="">
         <table class="form-table">
           <tr>
-            <th>Menu</th>
+            <th><label for="menu">Menu</label></th>
             <td>
-              <select name="" id="">
+              <select id="menu">
                 <option value="menu-1">Menu1</option>
                 <option value="menu-2">Menu2</option>
                 <option value="menu-3">Menu3</option>
@@ -179,16 +179,20 @@
           <tr>
             <th>Gender</th>
             <td>
-              <input type="radio" name="gender" value="male" />Male
-              <input type="radio" name="gender" value="female" />female
-              <input type="radio" name="gender" value="other" />Other
+              <label> <input type="radio" name="gender" value="male" />Male</label>
+              <label><input type="radio" name="gender" value="female" />female</label>
+              <label><input type="radio" name="gender" value="other" />Other</label>
             </td>
           </tr>
           <tr>
-            <th></th>
-            <td></td>
+            <th><label for="detail">Detail</label></th>
+            <td>
+              <textarea id="detail" cols="30" rows="10"></textarea>
+            </td>
           </tr>
         </table>
+
+        <button class="button" type="submit">Submit</button>
       </form>
     </section>
 
