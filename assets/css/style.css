@@ -11,6 +11,30 @@ body {
   /* 目に優しい色 */
 }
 
+/* Grid */
+.grid {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.grid-item {
+  list-style: none;
+}
+
+.grid-col-2 > .grid-item {
+  width: 50%;
+}
+
+.grid-col-3 > .grid-item {
+  width: 33.3333%;
+}
+
+.grid-col-4 > .grid-item {
+  width: 25%;
+}
+
 /* section */
 .section {
   padding: 40px;
@@ -40,30 +64,6 @@ body {
 .about-headline {
   margin: 0 0 20px;
   font-size: 30px;
-}
-
-/* Grid */
-.grid {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-}
-
-.grid-item {
-  list-style: none;
-}
-
-.grid-col-2 > .grid-item {
-  width: 50%;
-}
-
-.grid-col-3 > .grid-item {
-  width: 33.3333%;
-}
-
-.grid-col-4 > .grid-item {
-  width: 25%;
 }
 
 /* Feature */
@@ -146,4 +146,27 @@ body {
   margin: 0;
   border-radius: 50%;
   overflow: hidden;
+}
+
+/* button */
+.button {
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  background-color: #333;
+  text-align: center;
+  padding: 15px 60px;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 0 #bbb;
+  transition: box-shadow 0.25s;
+}
+
+.section-button {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.button:hover {
+  box-shadow: 0 0 0 #bbb;
 }
