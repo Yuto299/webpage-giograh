@@ -228,3 +228,16 @@ button {
 .form-button {
   text-align: center;
 }
+
+/* Logo */
+.works {
+  margin: 40px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.works > img {
+  margin: 0 10px;
+}
+
+/* Footer */
