@@ -8,7 +8,18 @@ body {
   font-size: 15px;
   line-height: 1.5;
   color: #333;
-  /* 目に優しい色 */
+}
+
+label,
+input,
+select,
+textarea,
+button {
+  cursor: pointer;
+}
+
+button {
+  border: none;
 }
 
 /* Grid */
@@ -169,4 +180,51 @@ body {
 
 .button:hover {
   box-shadow: 0 0 0 #bbb;
+}
+
+.button.button-secondary {
+  background-color: #92d3ca;
+}
+
+/* form */
+.select {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  min-width: 500px;
+  margin-bottom: 10px;
+}
+
+.input {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  min-width: 500px;
+  margin-bottom: 10px;
+}
+
+.radio {
+  margin: 20px 10px 20px 10px;
+}
+
+.textarea {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  min-width: 500px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  min-height: 100px;
+}
+
+.form-table {
+  margin: 0 auto;
+}
+
+.form-table th {
+  text-align: left;
+}
+
+.form-button {
+  text-align: center;
 }
