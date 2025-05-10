@@ -62,6 +62,35 @@ button {
   margin: 0 0 40px;
 }
 
+/* Hero */
+.hero {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero > strong {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+.hero > video {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
 /* about */
 .about {
   margin: 0;
@@ -241,3 +270,49 @@ button {
 }
 
 /* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+}
+
+.footer-map {
+  margin: 0;
+  padding: 40px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-map > iframe {
+  width: 60%;
+}
+
+.footer-map-info {
+  width: 40%;
+  padding: 15px;
+}
+
+.footer-map-logo {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.footer-map-address {
+  font-style: normal;
+}
+
+.footer-map-address > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-line {
+  border-color: #444;
+}
+
+.footer-copyright {
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
